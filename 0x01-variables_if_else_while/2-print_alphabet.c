@@ -8,18 +8,18 @@
  *description: xxx
  *Return: xx
  */
-int main ( void )
+int main (void)
 {
 	char output[] = "abcdefghijklmnopqrstuvwxyz";
 
 	size_t i = 0;
 
-	size_t arrayLength = strlen( output );
+	size_t arrayLength = strlen(output);
 
-	for ( i = 0; i < arrayLength; i++ )
+	for (i = 0; i < arrayLength; i++)
 	{
 		putchar(output[i]);
 	}
-	putchar( '\n');
+	putchar('\n');
 	return (0);
 }
