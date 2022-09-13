@@ -2,13 +2,14 @@
 #include <string.h>
 #include <stdio.h>
 #include "main.h"
+
 /**
  *main - Write a program that prints the alphabet in lowercase,
  *followed by a new line*
  *description: xxx
  *Return: xx
  */
-int main (void)
+int main(void)
 {
 	char output[] = "_putchar";
 
