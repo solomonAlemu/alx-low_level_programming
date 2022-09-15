@@ -43,4 +43,13 @@ int _isupper(int c);
  *Return: void
 */
 int _isdigit(int c);
+
+/**
+ *mul - a function that multiplies two integers
+ *dectiption - multiplies two integers
+ *@a: integers two be multiplies
+ *@b:>>
+ *Return: void
+ */
+int mul(int a, int b);
 #endif
