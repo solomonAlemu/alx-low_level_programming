@@ -35,4 +35,12 @@ void print_alphabet_x10(void);
 *Return: void
 */
 int _isupper(int c);
+
+/**
+ *_isdigit -  a function that checks for a digit (0 through 9).
+ *description - cheks fordigit characters
+ *@c: the character to be checked
+ *Return: void
+*/
+int _isdigit(int c);
 #endif
