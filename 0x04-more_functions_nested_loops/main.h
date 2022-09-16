@@ -89,4 +89,11 @@ void print_line(int n);
  *return: void
 */
 void print_diagonal(int n);
+/**
+ *print_square - print_square
+ *description - print_square
+ *@size: how many times?
+ *return: void
+*/
+void print_square(int size);
 #endif
