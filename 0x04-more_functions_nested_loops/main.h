@@ -59,4 +59,11 @@ int mul(int a, int b);
  *Returns: void
  */
 void print_numbers(void);
+
+/**
+ *prit_most_numbers - print 0 to 9 except 2 and 4
+ *description - >>
+ *Return: void
+*/
+void print_most_numbers(void);
 #endif
