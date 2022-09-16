@@ -81,4 +81,12 @@ void more_numbers(void);
  *Return: void
 */
 void print_line(int n);
+
+/**
+ *print_diagonal - print_diagonal
+ *description - print_diagonal
+ *@n: ow many?
+ *return: void
+*/
+void print_diagonal(int n);
 #endif
