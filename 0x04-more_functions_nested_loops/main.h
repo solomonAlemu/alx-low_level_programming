@@ -52,4 +52,11 @@ int _isdigit(int c);
  *Return: void
  */
 int mul(int a, int b);
+
+/**
+ *print_numbers - prints from 0 to 9
+ *description - >>
+ *Returns: void
+ */
+void print_numbers(void);
 #endif
