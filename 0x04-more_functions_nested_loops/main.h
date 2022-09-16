@@ -96,4 +96,11 @@ void print_diagonal(int n);
  *return: void
 */
 void print_square(int size);
+
+/**
+ *fizz_buzz - fizz_buzz
+ *description - fizz_buzz
+ *return: void
+*/
+void fizz_buzz(void);
 #endif
