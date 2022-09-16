@@ -103,4 +103,11 @@ void print_square(int size);
  *return: void
 */
 void fizz_buzz(void);
+/**
+ *print_triangle - print_triangle
+ *description - print_triangle
+ *@size: size
+ *return: void
+*/
+void print_triangle(int size);
 #endif
