@@ -73,4 +73,12 @@ void print_most_numbers(void);
  *Reurn: void
 */
 void more_numbers(void);
+
+/**
+ *prin_line - print lines
+ *description - >>
+ *@n: ho many times?
+ *Return: void
+*/
+void print_line(int n);
 #endif
