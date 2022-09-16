@@ -66,4 +66,11 @@ void print_numbers(void);
  *Return: void
 */
 void print_most_numbers(void);
+
+/**
+ *more_numbers - prints from 0 to 1
+ *description - >>
+ *Reurn: void
+*/
+void more_numbers(void);
 #endif
