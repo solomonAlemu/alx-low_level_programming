@@ -1,13 +1,13 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- *main - Write a program that prints the alphabet in lowercase,
- *followed by a new line*
- *description: xxx
- *Return: xx
- */
-int main(void)
+* main - Prints alphabets, in lowercase, followed by a new line
+* Return: Always 0.
+**/
+
+int main (void)
 {
 	print_alphabet();
 	return (0);
 }
+

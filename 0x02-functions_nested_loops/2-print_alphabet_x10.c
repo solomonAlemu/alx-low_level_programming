@@ -1,33 +1,21 @@
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- *print_alphabet_x10 - a program that prints 10 times the alphabet, in lowerc,
- *
- *followed by a new line
- *
- *description: xxx
- *
- *Return: xx
- *
- */
+* print_alphabet_x10 - Prints lowercase alphabets 10 times
+* Return: nothing
+**/
+
 void print_alphabet_x10(void)
 {
-	char output[] = "abcdefghijklmnopqrstuvwxyz";
+	int outer_loop, inner_loop;
 
-	int i, x  = 0;
-
-	int arrayLength = strlen(output);
-
-	for (x = 0; x < 10; x++)
+	for (outer_loop = 0; outer_loop < 10; outer_loop++)
 	{
-		for (i = 0; i < arrayLength; i++)
+		for (inner_loop = 'a'; inner_loop <= 'z'; inner_loop++)
 		{
-			_putchar(output[i]);
+			_putchar(inner_loop);
 		}
-
 		_putchar('\n');
 	}
 }
+

@@ -1,22 +1,16 @@
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- *print_alphabet_x10 - a program that prints 10 times the alphabet, in lowerc,
- *
- *followed by a new line
- *
- *description: xxx
- *
- *Return: xx
- *
- */
+* _islower -  Checks for lowercase character
+* @c: int to be checked
+* Return: 1, on success
+**/
+
 int _islower(int c)
 {
-	if (65 < = (c - 32) <= 122)
+	if (c >= 97 && c <= 122)
+	{
 		return (1);
-	else
-		return (0);
+	}
+	return (0);
 }

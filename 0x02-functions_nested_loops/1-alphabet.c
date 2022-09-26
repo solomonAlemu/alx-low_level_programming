@@ -1,29 +1,18 @@
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- *print_alphabet - a program that prints the alphabet in lowercase,
- *followed by a new line*
- *description: xxx
- *Return: xx
- */
+* print_alphabet - Prints lowercase alphabets
+* Return: nothing
+**/
+
 void print_alphabet(void)
 {
-	char output[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet = 'a';
 
-	size_t i = 0;
-
-	size_t arrayLength = strlen(output);
-
-	for (i = 0; i < arrayLength; i++)
+	while (alphabet <= 'z')
 	{
-
-		_putchar(output[i]);
-
+		_putchar(alphabet);
+		alphabet++;
 	}
-
 	_putchar('\n');
-
 }
