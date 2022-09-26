@@ -1,25 +1,25 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 
 /**
- *main - Write a program that prints the alphabet in lowercase,
-*followed by a new line*
- *description: xxx
- *Return: xx
- */
-int main (void)
+* main - Prints alphabets in lowercase, then in uppercase
+* Return: 0
+**/
+
+int main(void)
 {
-	char output[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char l_letter;
+	char u_letter;
 
-	size_t i = 0;
-
-	size_t arrayLength = strlen(output);
-
-	for (i = 0; i < arrayLength; i++)
+	for (l_letter = 97; l_letter <= 122; l_letter++)
 	{
-		putchar(output[i]);
+		putchar(l_letter);
+	}
+
+	for (u_letter = 'A'; u_letter <= 'Z'; u_letter++)
+	{
+		putchar(u_letter);
 	}
 	putchar('\n');
+
 	return (0);
 }

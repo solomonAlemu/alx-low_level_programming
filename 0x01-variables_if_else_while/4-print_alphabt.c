@@ -1,27 +1,25 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 
 /**
- *main - Write a program that prints the alphabet in lowercase,
-*followed by a new line*
- *description: xxx
- *Return: xx
- */
-int main (void)
+* main - Prints alphabets in lowercas, except q and e
+* Return: 0
+**/
+
+int main(void)
 {
-	char output[] = "abcdefghijklmnopqrstuvwxyz";
+	char l_letter = 'a';
 
-	size_t i = 0;
-
-	size_t arrayLength = strlen(output);
-
-	for (i = 0; i < arrayLength; i++)
+	while (l_letter <= 'z')
 	{
-		if (output[i] != 'q' && output[i] != 'e')
-			putchar(output[i]);
-		else continue;
+		if (!(l_letter == 'e' || l_letter == 'q'))
+		{
+			putchar(l_letter);
+		}
+
+		l_letter++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }

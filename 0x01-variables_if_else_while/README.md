@@ -1,1 +1,1 @@
-0-positive_or_negative.c
+Day 2 of C at Holberton on variables, operators and loops and functions.
